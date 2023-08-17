@@ -118,6 +118,10 @@ input:focus {
     box-shadow: 0 2px 5px #C0C0C0;
 }
 
+input:invalid:focus {
+    border: 2px solid rgb(255, 69, 100);
+    box-shadow: 0 2px 5px #C0C0C0;
+}
 
 .button-container {
     margin: 30px;
